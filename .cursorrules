@@ -1,0 +1,7 @@
+this App is built with Next.js, Tailwind CSS, and Liveblocks.
+
+It is a collaborative editor for Figma.
+
+It is a proof of concept and not ready for production use.
+
+@../figma-clone @/app @/Codebase

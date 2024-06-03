@@ -1,10 +1,10 @@
-import { COLORS } from '@/app/constants'
-import { LiveCursorProps } from '@/app/types/type'
+import { COLORS } from '@/constants'
+import { LiveCursorProps } from '@/types/type'
 import React from 'react'
 import Cursor from './Cursor'
 
 const LiveCursors = ({ others }: LiveCursorProps) => {
-  others.map(({connectionId, presence}) => {
+  return others.map(({connectionId, presence}) => {
     if(!presence) return null
 
     return (

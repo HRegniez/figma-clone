@@ -10,7 +10,7 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Hregniez's Figma",
+  title: "Hregniez's Figma clone",
   description: "Hregniez's Figma Collaborative Editor, built with Liveblocks, Next.js, and Tailwind CSS.",
 };
 
